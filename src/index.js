@@ -267,6 +267,7 @@ const Rereact = {
   useState
 };
 
+// let Babel convert jsx by our own method(Rereact.createElement)
 /** @jsx Rereact.createElement */
 function Counter() {
   const [state, setState] = Rereact.useState(1);
